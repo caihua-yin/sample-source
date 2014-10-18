@@ -6,7 +6,7 @@
 int main() {
     int i = 0;
     for (i = 0; i < 100; i++) {
-        const char* file_path = "./test_file";
+        const char* file_path = "./output/test_file";
         int fd = open(file_path, O_RDWR | O_APPEND | O_CREAT);
         if (fd > 0) {
             int size = write(fd, "aaaaa", 5);
