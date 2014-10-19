@@ -5,7 +5,7 @@ main.o: main.c algo.h
 	cc -c main.c
 
 libalgo.a: algo.o
-	ar crv libalgo.a algo.o
+	ar crsv libalgo.a algo.o
 algo.o: algo.c algo.h
 	cc -c algo.c
 
