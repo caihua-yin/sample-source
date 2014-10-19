@@ -1,0 +1,5 @@
+This is the directory for shared library
+
+Testing steps:
+1. make
+2. LD_LIBRARY_PATH=. ./main
